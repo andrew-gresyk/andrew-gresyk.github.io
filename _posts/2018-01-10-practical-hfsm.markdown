@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Practical HFSM"
+title:  "Presentation: Practical HFSM"
 date:   2018-01-10 18:30:00 +0000
 categories: presentations
 ---

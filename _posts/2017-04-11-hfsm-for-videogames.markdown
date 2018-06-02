@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hierarchical State Machine Framework for Videogames"
+title:  "Presentation: Hierarchical State Machine Framework for Videogames"
 date:   2017-04-11 18:30:00 +0000
 categories: presentations
 ---

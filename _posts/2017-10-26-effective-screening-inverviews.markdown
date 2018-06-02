@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Effective Screening Interviews"
+title:  "Presentation: Effective Screening Interviews"
 date:   2017-10-26 19:45:15 +0000
 categories: presentations
 ---

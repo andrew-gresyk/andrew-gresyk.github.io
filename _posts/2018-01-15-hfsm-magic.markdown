@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "HFSM feature announcement: Automatic Structure Visualization"
+title:  "Feature Announcement: Automatic Structure Visualization in HFSM"
 date:   2018-01-15 18:30:00 +0000
 categories: features
 ---
@@ -34,7 +34,7 @@ struct StructureEntry {
 using MachineStructure = detail::ArrayView<StructureEntry>;
 const MachineStructure& hfsm::M<>::Root<>::structure() const;
 
-using MachineActivity  = detail::ArrayView<char>;
+using MachineActivity = detail::ArrayView<char>;
 const MachineActivity& hfsm::M<>::Root<>::activity() const;
 ```
 
