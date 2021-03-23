@@ -4,7 +4,7 @@ title:  "Feature Announcement: Automatic Structure Visualization in HFSM"
 date:   2018-01-15 18:30:00 +0000
 categories: features
 ---
-Visualization in [Visual Studio](https://www.visualstudio.com/vs/) watch window using a custom [.natvis](https://msdn.microsoft.com/en-us/library/jj620914.aspx) [file](https://raw.githubusercontent.com/andrew-gresyk/HFSM/master/hfsm2.natvis):
+Visualization in [Visual Studio](https://www.visualstudio.com/vs/) watch window using a custom [.natvis](https://msdn.microsoft.com/en-us/library/jj620914.aspx) [file](https://github.com/andrew-gresyk/HFSM2/blob/master/hfsm2.natvis):
 
 ![magic](https://andrew-gresyk.github.io/attachments/magic.gif)
 
