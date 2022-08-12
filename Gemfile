@@ -26,4 +26,4 @@ end
 #gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # TEMP: Force tzinfo to a safe version
-#gem "tzinfo", ">= 1.2.10"
+gem "tzinfo", ">= 1.2.10"
