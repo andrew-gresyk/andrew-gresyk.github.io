@@ -1,0 +1,59 @@
+<svg viewBox="0 0 1100 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ttl dsc">
+  <title id="ttl">A layered, spec-driven estimation pipeline mapped to the DIKW ladder</title>
+  <desc id="dsc">Six stages, primary-source facts, options, decisions, plan, estimate, pitch, each an artifact that gates the next, grouped into DIKW levels: data, information, knowledge, and the judgment that is the estimate.</desc>
+  <defs>
+    <marker id="ah" markerWidth="9" markerHeight="9" refX="6.5" refY="4.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="var(--color-text-secondary, #6b6a63)"/>
+    </marker>
+  </defs>
+  <style>
+    text{font-family:var(--font-sans,'Segoe UI',system-ui,Arial,sans-serif)}
+    .ttl{font-size:23px;font-weight:600;fill:var(--color-text-primary,#20201c)}
+    .sub{font-size:13.5px;fill:var(--color-text-secondary,#6b6a63)}
+    .stg{font-size:15px;font-weight:600;fill:var(--color-text-primary,#20201c)}
+    .bl{font-size:12px;font-weight:700;letter-spacing:1.5px;fill:var(--color-text-primary,#20201c)}
+    .cap{font-size:14px;fill:var(--color-text-secondary,#6b6a63)}
+  </style>
+  <rect x="0" y="0" width="1100" height="300" fill="var(--color-background-primary,#ffffff)"/>
+  <text class="ttl" x="550" y="40" text-anchor="middle">A layered, spec-driven estimation pipeline</text>
+  <text class="sub" x="550" y="64" text-anchor="middle">each stage is an artifact that gates the next, and climbs the DIKW ladder</text>
+
+  <rect x="40" y="92" width="145" height="74" rx="10" fill="var(--color-background-secondary,#f4f3ee)" stroke="var(--color-border-secondary,#d9d7cf)" stroke-width="1.5"/>
+  <text class="stg" x="112.5" y="124" text-anchor="middle">Primary-source</text>
+  <text class="stg" x="112.5" y="146" text-anchor="middle">facts</text>
+
+  <rect x="215" y="92" width="145" height="74" rx="10" fill="var(--color-background-secondary,#f4f3ee)" stroke="var(--color-border-secondary,#d9d7cf)" stroke-width="1.5"/>
+  <text class="stg" x="287.5" y="135" text-anchor="middle">Options</text>
+
+  <rect x="390" y="92" width="145" height="74" rx="10" fill="var(--color-background-secondary,#f4f3ee)" stroke="var(--color-border-secondary,#d9d7cf)" stroke-width="1.5"/>
+  <text class="stg" x="462.5" y="135" text-anchor="middle">Decisions</text>
+
+  <rect x="565" y="92" width="145" height="74" rx="10" fill="var(--color-background-secondary,#f4f3ee)" stroke="var(--color-border-secondary,#d9d7cf)" stroke-width="1.5"/>
+  <text class="stg" x="637.5" y="135" text-anchor="middle">Plan</text>
+
+  <rect x="740" y="92" width="145" height="74" rx="10" fill="var(--color-background-secondary,#f4f3ee)" stroke="var(--color-border-secondary,#d9d7cf)" stroke-width="1.5"/>
+  <text class="stg" x="812.5" y="135" text-anchor="middle">Estimate</text>
+
+  <rect x="915" y="92" width="145" height="74" rx="10" fill="var(--color-background-secondary,#f4f3ee)" stroke="var(--color-border-secondary,#d9d7cf)" stroke-width="1.5"/>
+  <text class="stg" x="987.5" y="135" text-anchor="middle">Pitch</text>
+
+  <line x1="188" y1="129" x2="210" y2="129" stroke="var(--color-text-secondary,#6b6a63)" stroke-width="2" marker-end="url(#ah)"/>
+  <line x1="363" y1="129" x2="385" y2="129" stroke="var(--color-text-secondary,#6b6a63)" stroke-width="2" marker-end="url(#ah)"/>
+  <line x1="538" y1="129" x2="560" y2="129" stroke="var(--color-text-secondary,#6b6a63)" stroke-width="2" marker-end="url(#ah)"/>
+  <line x1="713" y1="129" x2="735" y2="129" stroke="var(--color-text-secondary,#6b6a63)" stroke-width="2" marker-end="url(#ah)"/>
+  <line x1="888" y1="129" x2="910" y2="129" stroke="var(--color-text-secondary,#6b6a63)" stroke-width="2" marker-end="url(#ah)"/>
+
+  <rect x="40" y="190" width="145" height="42" rx="8" fill="var(--color-text-info,#5b8def)" fill-opacity="0.14"/>
+  <text class="bl" x="112.5" y="216" text-anchor="middle">DATA</text>
+
+  <rect x="215" y="190" width="145" height="42" rx="8" fill="var(--color-text-info,#5b8def)" fill-opacity="0.24"/>
+  <text class="bl" x="287.5" y="216" text-anchor="middle">INFORMATION</text>
+
+  <rect x="390" y="190" width="320" height="42" rx="8" fill="var(--color-text-info,#5b8def)" fill-opacity="0.36"/>
+  <text class="bl" x="550" y="216" text-anchor="middle">KNOWLEDGE</text>
+
+  <rect x="740" y="190" width="320" height="42" rx="8" fill="var(--color-text-info,#5b8def)" fill-opacity="0.5"/>
+  <text class="bl" x="900" y="216" text-anchor="middle">WISDOM</text>
+
+  <text class="cap" x="550" y="272" text-anchor="middle">The LLM does the broad work, and a person owns the judgment</text>
+</svg>

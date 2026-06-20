@@ -8,13 +8,11 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 title: "gresyk.dev"
 #email: your-email@example.com
-#description: "Andrew Gresyk"
+description: "Andrew Gresyk"
 # >- # this means to ignore newlines until "baseurl:"
-author:
-  name: Andrew Gresyk
-  #email: "1@1.com"
+author: Andrew Gresyk
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://gresyk.dev" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://gresyk.dev"
 
 twitter_username: andrew_gresyk
 github_username: andrew-gresyk
