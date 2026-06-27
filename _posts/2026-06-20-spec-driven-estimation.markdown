@@ -8,7 +8,7 @@ categories: features
 
 Estimating a multi-year game project is hard to do well, and harder to defend when someone asks how you reached the number. Most estimates come down to a single gut-feel figure. They tend to run optimistic, and the reasoning behind them is hard to reconstruct a month later. I wanted an estimate I could stand behind and update without starting over, so I built a workflow for it. Here is how it works and why it holds up.
 
-![A layered, spec-driven estimation pipeline](attachments/spec-driven-estimation.svg)
+![A layered, spec-driven estimation pipeline](/attachments/spec-driven-estimation.svg)
 
 ## Borrowing a habit from programming
 

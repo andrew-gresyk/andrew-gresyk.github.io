@@ -1,0 +1,69 @@
+<svg viewBox="0 0 800 372" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ttl dsc">
+  <title id="ttl">Multi-agent review panel</title>
+  <desc id="dsc">One change — specs or code — is reviewed independently by four rival AI agents: Claude Code, Codex, Cursor, and opencode with a free-model fan-out. Their findings flow to a human who verifies and corroborates them, then dispositions each as fix, defer, or accept.</desc>
+  <defs>
+    <marker id="ah" markerWidth="9" markerHeight="9" refX="6.5" refY="4.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="var(--color-text-secondary,#6b6a63)"/>
+    </marker>
+  </defs>
+  <style>
+    text{font-family:var(--font-sans,'Segoe UI',system-ui,Arial,sans-serif)}
+    .ttl{font-size:23px;font-weight:600;fill:var(--color-text-primary,#20201c)}
+    .sub{font-size:13.5px;fill:var(--color-text-secondary,#6b6a63)}
+    .stg{font-size:15px;font-weight:600;fill:var(--color-text-primary,#20201c)}
+    .small{font-size:12px;fill:var(--color-text-secondary,#6b6a63)}
+    .frm{font-size:13px;font-weight:600;letter-spacing:0.5px;fill:var(--color-text-secondary,#6b6a63)}
+  </style>
+
+  <rect x="0" y="0" width="800" height="372" fill="var(--color-background-primary,#ffffff)"/>
+
+  <text class="ttl" x="400" y="40" text-anchor="middle">One change &#8594; a panel of rival reviewers &#8594; verify</text>
+  <text class="sub" x="400" y="63" text-anchor="middle">four rival agents review independently — a human verifies, corroborates, disposes</text>
+
+  <!-- review-stage frame -->
+  <rect x="226" y="92" width="178" height="254" rx="10" fill="none" stroke="var(--color-border-secondary,#d9d7cf)" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text class="frm" x="315" y="334" text-anchor="middle">review</text>
+
+  <!-- input -->
+  <rect x="40" y="181" width="130" height="56" rx="10" fill="var(--color-background-secondary,#f4f3ee)" stroke="var(--color-border-secondary,#d9d7cf)" stroke-width="1.5"/>
+  <text class="stg" x="105" y="205" text-anchor="middle">A change</text>
+  <text class="small" x="105" y="221" text-anchor="middle">specs or code</text>
+
+  <!-- reviewers -->
+  <rect x="240" y="104" width="150" height="42" rx="10" fill="var(--color-background-secondary,#f4f3ee)" stroke="var(--color-border-secondary,#d9d7cf)" stroke-width="1.5"/>
+  <text class="stg" x="315" y="130" text-anchor="middle">Claude Code</text>
+  <rect x="240" y="160" width="150" height="42" rx="10" fill="var(--color-background-secondary,#f4f3ee)" stroke="var(--color-border-secondary,#d9d7cf)" stroke-width="1.5"/>
+  <text class="stg" x="315" y="186" text-anchor="middle">Codex</text>
+  <rect x="240" y="216" width="150" height="42" rx="10" fill="var(--color-background-secondary,#f4f3ee)" stroke="var(--color-border-secondary,#d9d7cf)" stroke-width="1.5"/>
+  <text class="stg" x="315" y="242" text-anchor="middle">Cursor</text>
+  <rect x="240" y="272" width="150" height="42" rx="10" fill="var(--color-background-secondary,#f4f3ee)" stroke="var(--color-border-secondary,#d9d7cf)" stroke-width="1.5"/>
+  <text class="stg" x="315" y="291" text-anchor="middle">opencode</text>
+  <text class="small" x="315" y="306" text-anchor="middle">+ free-model fan-out</text>
+
+  <!-- adjudicate -->
+  <rect x="470" y="177" width="150" height="64" rx="10" fill="var(--color-background-secondary,#f4f3ee)" stroke="var(--color-border-secondary,#d9d7cf)" stroke-width="1.5"/>
+  <text class="stg" x="545" y="201" text-anchor="middle">Adjudicate (me)</text>
+  <text class="small" x="545" y="218" text-anchor="middle">verify &#183; corroborate</text>
+  <text class="small" x="545" y="232" text-anchor="middle">dispose</text>
+
+  <!-- dispositions -->
+  <rect x="670" y="177" width="90" height="64" rx="10" fill="var(--color-background-secondary,#f4f3ee)" stroke="var(--color-border-secondary,#d9d7cf)" stroke-width="1.5"/>
+  <text class="stg" x="715" y="199" text-anchor="middle">fix</text>
+  <text class="small" x="715" y="215" text-anchor="middle">defer</text>
+  <text class="small" x="715" y="231" text-anchor="middle">accept</text>
+
+  <!-- fan-out -->
+  <path fill="none" stroke="var(--color-text-secondary,#6b6a63)" stroke-width="1.6" marker-end="url(#ah)" d="M170,209 C210,209 205,125 240,125"/>
+  <path fill="none" stroke="var(--color-text-secondary,#6b6a63)" stroke-width="1.6" marker-end="url(#ah)" d="M170,209 C210,205 215,181 240,181"/>
+  <path fill="none" stroke="var(--color-text-secondary,#6b6a63)" stroke-width="1.6" marker-end="url(#ah)" d="M170,209 C210,213 215,237 240,237"/>
+  <path fill="none" stroke="var(--color-text-secondary,#6b6a63)" stroke-width="1.6" marker-end="url(#ah)" d="M170,209 C210,209 205,293 240,293"/>
+
+  <!-- fan-in -->
+  <path fill="none" stroke="var(--color-text-secondary,#6b6a63)" stroke-width="1.6" marker-end="url(#ah)" d="M390,125 C430,125 425,201 470,201"/>
+  <path fill="none" stroke="var(--color-text-secondary,#6b6a63)" stroke-width="1.6" marker-end="url(#ah)" d="M390,181 C430,187 435,206 470,206"/>
+  <path fill="none" stroke="var(--color-text-secondary,#6b6a63)" stroke-width="1.6" marker-end="url(#ah)" d="M390,237 C430,231 435,212 470,212"/>
+  <path fill="none" stroke="var(--color-text-secondary,#6b6a63)" stroke-width="1.6" marker-end="url(#ah)" d="M390,293 C430,293 425,217 470,217"/>
+
+  <!-- consolidate -->
+  <path fill="none" stroke="var(--color-text-secondary,#6b6a63)" stroke-width="1.6" marker-end="url(#ah)" d="M620,209 L670,209"/>
+</svg>
