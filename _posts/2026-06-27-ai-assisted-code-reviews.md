@@ -63,18 +63,3 @@ Running four products plus a fan-out costs time, tokens, and the upkeep of keepi
 You don't need four agents to get most of the benefit. Start with two you already use, run them on the same change, and add one habit: don't act on a finding until you've checked it against the code yourself. Treat each agent as a useful but fallible reader, not an oracle. The value isn't in any single read. It's in having a couple of independent ones and a person who verifies before anything changes.
 
 That's the whole thing. It's a calm, slightly boring process, and that's mostly why it works.
-
----
-
-## Notes
-
-- **Voice:** house style ([WritingStyle.md](../../WritingStyle.md)) — plain ASCII, calm, contractions.
-- **Talk outline:** the section headers double as the talk's outline (output C) — the loop, what the
-  panel is, the numbers, a worked example, why verification beats counting heads, what's new vs. not,
-  cost, takeaway.
-- **Sources:** numbers from [4-panel-stats.md](4-panel-stats.md) (items 08–15: 170 files, ~461 findings,
-  81% fixed), caveats carried in; positioning from [3-competitive-scan.md](3-competitive-scan.md).
-- **NDA-safe:** the project stays generic; the worked example is genericised; the novelty line is
-  marked "as of mid-2026."
-- **Siblings:** short LinkedIn version [5-linkedin-post.md](5-linkedin-post.md) (punchier variant
-  [5-linkedin-post-punchy.md](5-linkedin-post-punchy.md)).
